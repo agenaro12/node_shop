@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+h1 {
+    color:crimson;
+    text-shadow: 5px;
+}
+
+h2 {
+    color:navy;
+}
+
+.nav-class {
+    float: top;
+    color: whitesmoke;
+    background-color: navy;
+    height: anchor-size(height);
+    margin: 0;
+}
+
+.nav-ul-class {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-ul-li-class {
+    font-weight: bold;
+    display: inline;
+    margin: 0 15px;
+}
+
+.article-class {
+    float: right;
+    width: 80%;
+    margin: 0px;
+}
+
+.footer-index{
+    position: fixed;
+    bottom: 0;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(49, 54, 54);
+    width: 100%;
+    margin: 0px;
+}

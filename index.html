@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <title>Online Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./js/search.js" ></script>
+        
 </head>    
     <body>
         <header>
-            <h1>Hello there!!</h1>
+            <h1 title="this is a header">Hello there!!</h1>
         </header>
         <section>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Carrer</li>
-                    <li>About us</li>
+            <nav class="nav-class">
+                <ul class="nav-ul-class">
+                    <li class="nav-ul-li-class">Home</li>
+                    <li class="nav-ul-li-class">Carrer</li>
+                    <li class="nav-ul-li-class">About us</li>
                 </ul>
             </nav>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus accusantium hic temporibus alias facilis voluptates iure quasi, vitae cupiditate reprehenderit molestias sint itaque, tenetur quaerat! Praesentium deserunt officia tempora doloribus.</p>
+            <article class="article-class">
+                <h2>Lorem title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <ins>Natus accusantium hic temporibus alias facilis voluptates iure quasi</ins>, vitae cupiditate reprehenderit molestias sint itaque, tenetur quaerat! Praesentium deserunt officia tempora doloribus.</p>
+                <p>Lorem ipsum dolor, <del>sit amet consectetur adipisicing elit.</del> Itaque unde quia natus id necessitatibus quidem, numquam libero rem officia! Molestiae ea animi nostrum harum ex blanditiis similique assumenda, possimus unde.</p>
+                <input type="text" id="txtSearch" value="" />
+                <input type="button" required onclick="Search(document.getElementById('txtSearch').value)"/>
             </article>
         </section>
-        
+        <footer class="footer-index">
+            Footer
+        </footer>
     </body>
 </html>
