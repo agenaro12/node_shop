@@ -1,0 +1,18 @@
+.div_card {
+    float: left;
+    padding: 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title_card {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img_card {
+    width: 250px;
+    height: 200px;
+}
