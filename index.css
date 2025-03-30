@@ -1,5 +1,8 @@
 body{
     margin: 0px;
+    padding: 0;
+    padding-top: 125px;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -10,7 +13,6 @@ h1 {
 h2 {
     color:navy;
 }
-
 
 .article-class {
     width: 95%;

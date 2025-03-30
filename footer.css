@@ -1,5 +1,6 @@
 .footer-index{
-    position: fixed;
+    position:fixed;
+    display: block;
     bottom: 0;
     right: 0;
     color: aliceblue;
