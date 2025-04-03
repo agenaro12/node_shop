@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    /*background-image:url("./img/Books stacked -10.psd");*/
+    background-image:linear-gradient(to top, white,rgb(65, 101, 151));
+    background-repeat:no-repeat;
+}
+
+.login_div{
+    position: relative;
+    top:200px;
+    background-color: rgb(65, 101, 151);
+    color: white;
+    max-width: 270px;
+    margin: 0 auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login_div label{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:5px auto;
+}
+
+.login_div input{
+    width: 93%;
+    padding: 5px;
+    margin: 3px;
+}
+
+.login_div button{
+    display: block;
+    margin:5px auto;
+}
+
+.login_div h2{
+    top:0;
+    margin: 0 0 10px 0;
+    padding: 5px 0;
+    background-color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(34, 57, 83);
+    text-align: center;
+}
+
+#btnLog {
+    background-color: rgb(26, 51, 101);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#btnLog:hover{
+    background-color: rgb(60, 85, 227);
+}

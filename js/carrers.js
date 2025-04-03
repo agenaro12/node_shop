@@ -61,3 +61,7 @@ const carrerList = () => {
     list += "</div>";
     document.getElementById('carrer-container').innerHTML=list;
 }
+
+const modalWindow = () => {
+    
+}
